@@ -1,0 +1,1 @@
+{"uuid":"d21de494-ac48-4d1a-a730-6c5f2c1eb95a","name":"carProject.BaseTest.teardown","children":["159ce472-a1ff-4ac9-a08b-b3facb823015"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1720316021755,"stop":1720316022068}],"start":1720316021754,"stop":1720316022068}

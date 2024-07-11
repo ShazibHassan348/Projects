@@ -1,0 +1,5 @@
+{
+  "protocol": "http",
+  "domain": "www.cars.com",
+  "wait": 10
+}
