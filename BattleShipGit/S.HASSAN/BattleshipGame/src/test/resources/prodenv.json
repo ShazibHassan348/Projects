@@ -1,0 +1,5 @@
+{
+  "protocol": "http",
+  "domain": "en.battleship-game.org",
+  "wait": 10
+}

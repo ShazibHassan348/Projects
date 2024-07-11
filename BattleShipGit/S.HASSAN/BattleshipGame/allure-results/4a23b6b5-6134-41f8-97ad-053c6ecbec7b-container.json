@@ -1,0 +1,1 @@
+{"uuid":"4a23b6b5-6134-41f8-97ad-053c6ecbec7b","name":"battleship.BaseTest.setup","children":["9a963437-5ef6-4f18-9a16-e2bfeb8387a1"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1720318911609,"stop":1720318915009}],"afters":[],"start":1720318911609,"stop":1720318915009}
