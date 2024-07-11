@@ -1,1 +1,0 @@
-{"uuid":"2574f16d-1c9b-4d5f-bce9-599670fa9c72","name":"carProject.BaseTest.setup","children":["159ce472-a1ff-4ac9-a08b-b3facb823015"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1720315887565,"stop":1720315897561}],"afters":[],"start":1720315887564,"stop":1720315897564}
