@@ -1,0 +1,5 @@
+{
+  "protocol": "https",
+  "domain": "//dev.app.nuport.io/login",
+  "wait": 10
+}
