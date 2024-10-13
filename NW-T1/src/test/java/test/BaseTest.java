@@ -20,6 +20,10 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
         browser.goTo(SettingsData.getEnvData().getHost());
         browser.maximize();
         browser.setImplicitWaitTimeout(Duration.ofSeconds(5));
