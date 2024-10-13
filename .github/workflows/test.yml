@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Update to the latest version
 
       - name: Set up JDK 18
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v3  # This already uses a recent version
         with:
           java-version: '18'
           distribution: 'temurin'
@@ -24,7 +24,6 @@ jobs:
       - name: Run tests in Lvl2UserInterface
         run: mvn -f ./InterfaceGitHub/S.HASSAN/Lvl2UserInterface/pom.xml test
 
-    
 
       
 
