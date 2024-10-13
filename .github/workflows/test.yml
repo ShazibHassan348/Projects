@@ -16,14 +16,18 @@ jobs:
         uses: actions/checkout@v3  # Update to the latest version
 
       - name: Set up JDK 18
-        uses: actions/setup-java@v3  # This already uses a recent version
+        uses: actions/setup-java@v3
         with:
           java-version: '18'
           distribution: 'temurin'
 
+      - name: Cache Maven dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
       - name: Run tests in NW-T1
-        run: mvn -f ./NW-T1/pom.xml test
-
-
-      
-
+        run: mvn -f ./NW-T1/pom.xml clean test -X
