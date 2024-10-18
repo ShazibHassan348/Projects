@@ -126,13 +126,21 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0</version>
-                <configuration>
-                    <argLine>-Xmx1024m</argLine> <!-- Increase JVM memory for tests -->
-                </configuration>
+                <version>2.22.2</version> <!-- Use a version similar to the screenshot -->
+                <dependencies>
+                    <dependency>
+                        <groupId>org.testng</groupId>
+                        <artifactId>testng</artifactId>
+                        <version>7.8.0</version> <!-- Use the latest stable version of TestNG -->
+                    </dependency>
+                </dependencies>
+
             </plugin>
         </plugins>
     </build>
+
+
+
 
 </project>
 
