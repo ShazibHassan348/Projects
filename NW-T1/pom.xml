@@ -22,6 +22,12 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+
     </repositories>
 
     <dependencies>
@@ -108,8 +114,8 @@
         <!-- Selenium DevTools -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v116</artifactId>
-            <version>4.14.1</version>
+            <artifactId>selenium-devtools-v129</artifactId>
+            <version>4.25.0</version>
             <scope>test</scope>
         </dependency>
 

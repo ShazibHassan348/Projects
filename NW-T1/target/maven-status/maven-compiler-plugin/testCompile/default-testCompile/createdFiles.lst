@@ -1,0 +1,9 @@
+test\BaseTest.class
+pages\LoginPage.class
+test\Credentials.class
+test\MainTest.class
+utilis\SettingsData.class
+framework\LocatorConstant.class
+models\Env.class
+pages\NuportPage.class
+models\EnvData.class

@@ -21,6 +21,12 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--remote-allow-origins=*");
+
         browser.goTo(SettingsData.getEnvData().getHost());
         browser.maximize();
         browser.setImplicitWaitTimeout(Duration.ofSeconds(5));
