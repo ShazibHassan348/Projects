@@ -100,3 +100,37 @@
 2024-10-19 14:00:59 INFO  - Button 'Login Button' :: Clicking
 2024-10-19 14:00:59 INFO  - Label 'Nuport Mainpage' :: Waiting for element to be displayed
 2024-10-19 14:01:03 INFO  - Closing browser
+2024-10-21 14:13:11 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-10-21 14:13:11 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-10-21 14:13:18 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-10-21 14:13:18 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-10-21 14:13:18 INFO  - Browser 'CHROME' ready...
+2024-10-21 14:13:18 INFO  - Navigate to url - 'https:////dev.app.nuport.io/login'
+2024-10-21 14:13:25 INFO  - Maximizing browser window
+2024-10-21 14:13:25 DEBUG - Set implicit timeout '5' in seconds
+2024-10-21 14:13:25 DEBUG - Set implicit timeout '0' in seconds
+2024-10-21 14:13:25 INFO  - Text Field 'Email Field' :: Clearing
+2024-10-21 14:13:25 INFO  - Text Field 'Email Field' :: Typing 'mosaddik@steeltech-bd.com'
+2024-10-21 14:13:26 INFO  - Text Field 'Password Field' :: Sending keys 'steeltech123'
+2024-10-21 14:13:26 INFO  - Button 'Login Button' :: Clicking
+2024-10-21 14:13:26 INFO  - Label 'Nuport Mainpage' :: Waiting for element to be displayed
+2024-10-21 14:13:30 INFO  - Closing browser
+2024-10-21 14:15:10 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-10-21 14:15:10 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-10-21 14:15:13 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-10-21 14:15:13 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-10-21 14:15:13 INFO  - Browser 'CHROME' ready...
+2024-10-21 14:15:13 INFO  - Navigate to url - 'https:////dev.app.nuport.io/login'
+2024-10-21 14:15:19 INFO  - Maximizing browser window
+2024-10-21 14:15:20 DEBUG - Set implicit timeout '5' in seconds
+2024-10-21 14:15:20 DEBUG - Set implicit timeout '0' in seconds
+2024-10-21 14:15:20 INFO  - Text Field 'Email Field' :: Clearing
+2024-10-21 14:15:20 INFO  - Text Field 'Email Field' :: Typing 'mosaddik@steeltech-bd.com'
+2024-10-21 14:15:20 INFO  - Text Field 'Password Field' :: Sending keys 'steeltech123'
+2024-10-21 14:15:20 INFO  - Button 'Login Button' :: Clicking
+2024-10-21 14:15:20 INFO  - Label 'Nuport Mainpage' :: Waiting for element to be displayed
+2024-10-21 14:15:24 INFO  - Closing browser
